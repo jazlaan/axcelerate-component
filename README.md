@@ -1,12 +1,12 @@
 # **Axcelerate Component**
 
-A **Searchable Contact List component** featuring:  
-**Searchable and collapsible sections**  
-**Selection highlighting**  
-**Configurable email visibility**  
-**Mobile responsive styling**  
-**Unit tests with React Testing Library**  
-**Storybook for interactive documentation**
+**A Searchable Contact List component featuring**:  
+**- Searchable and collapsible sections**  
+**- Selection highlighting**  
+**- Configurable email visibility**  
+**- Mobile responsive styling**  
+**- Unit tests with React Testing Library**  
+**- Storybook for interactive documentation**
 
 ---
 
