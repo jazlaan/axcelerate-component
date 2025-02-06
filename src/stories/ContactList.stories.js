@@ -87,3 +87,29 @@ WithSearch.play = async ({ canvasElement }) => {
   await userEvent.keyboard("{Enter}");
 };
 WithSearch.storyName = "Search Functionality";
+
+// Mobile Responsive Story
+export const MobileView = (args) => (
+  <div
+    style={{
+      width: "230px",
+      height: "450px",
+      overflow: "auto",
+      border: "1px solid #ccc",
+    }}
+  >
+    <ContactList {...args} attended={sampleAttended} absent={sampleAbsent} />
+  </div>
+);
+MobileView.storyName = "Mobile Responsive View";
+MobileView.parameters = {
+  viewport: {
+    defaultViewport: "iphonex",
+  },
+  docs: {
+    description: {
+      story:
+        "This story tests how the component behaves on small screens like mobile devices.",
+    },
+  },
+};
